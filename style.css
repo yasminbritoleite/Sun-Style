@@ -1,0 +1,302 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif; 
+} 
+ 
+body { 
+  background-color: #004b5a; 
+  color: white; 
+} 
+ 
+header { 
+  padding: 20px 40px; 
+} 
+ 
+.menu-sunstyle { 
+  background-color: #fabb18; 
+  max-width: 1100px; 
+  height: 60px; 
+  margin: auto; 
+  padding: 0 25px; 
+  border-radius: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+ 
+.logo-sunstyle img { 
+  height: 35px; 
+  display: block; 
+} 
+ 
+.links-menu { 
+  display: flex; 
+  gap: 30px; 
+  list-style: none; 
+} 
+ 
+.links-menu a { 
+  color: #000; 
+  text-decoration: none; 
+  font-weight: bold; 
+} 
+ 
+.conteudo-sunstyle { 
+  max-width: 1100px; 
+  margin: auto; 
+  padding: 20px; 
+} 
+ 
+.titulo-sunstyle { 
+  color: #fabb18; 
+  text-align: center; 
+  margin: 30px 0 20px; 
+} 
+ 
+.botao-sunstyle, 
+.botao-enviar { 
+  background-color: #a3a3a3; 
+  color: #000; 
+  border: 0; 
+  border-radius: 15px; 
+  padding: 8px 25px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  display: inline-block; 
+  cursor: pointer; 
+  text-align: center; 
+} 
+ 
+.centralizar-botao { 
+  text-align: center; 
+  margin: 20px 0; 
+  width: 100%; 
+} 
+ 
+.cartao-sunstyle, 
+.cartao { 
+  background-color: #a3a3a3; 
+  color: #000; 
+  padding: 25px; 
+  border-radius: 20px; 
+  font-size: 13px; 
+  line-height: 1.5; 
+} 
+ 
+.banner-sunstyle img { 
+  width: 100%; 
+  border-radius: 20px; 
+} 
+ 
+.sobre-sunstyle, 
+.inovacao, 
+.excelencia { 
+  display: flex; 
+  align-items: center; 
+  gap: 30px; 
+  margin: 30px 0; 
+} 
+ 
+.sobre-sunstyle > img, 
+.inovacao > img { 
+  width: 25%; 
+  border-radius: 20px; 
+} 
+ 
+.conteudo-sobre { 
+  flex: 1; 
+} 
+ 
+.equipe { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 25px; 
+} 
+ 
+.cartao.pessoa { 
+  display: flex; 
+  align-items: center; 
+  gap: 15px; 
+  height: 180px; 
+  padding: 20px; 
+} 
+ 
+.cartao.pessoa img { 
+  width: 120px; 
+  height: 120px; 
+  object-fit: contain; 
+  border-radius: 20px; 
+} 
+ 
+.informacoes-pessoa h4 { 
+  font-size: 16px; 
+} 
+ 
+.informacoes-pessoa p { 
+  font-size: 10px; 
+} 
+ 
+.informacoes-pessoa .cargo { 
+  font-size: 11px; 
+  margin: 5px 0; 
+} 
+ 
+.certificados { 
+  width: 45%; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+} 
+ 
+.certificados img { 
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+} 
+ 
+.categorias-sunstyle, 
+.produtos-sunstyle { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 25px; 
+  margin: 30px 0; 
+} 
+ 
+.categoria-sunstyle, 
+.produto-sunstyle { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+ 
+.categoria-sunstyle img, 
+.produto-sunstyle img { 
+  width: 100%; 
+  height: 220px; 
+  object-fit: cover; 
+  border-radius: 20px; 
+} 
+ 
+.categoria-sunstyle .botao-sunstyle, 
+.produto-sunstyle .botao-sunstyle { 
+  margin-top: 15px; 
+  min-width: 140px; 
+} 
+ 
+.produto-sunstyle .cartao-sunstyle { 
+  width: 100%; 
+  min-height: 120px; 
+  margin-top: 15px; 
+  font-size: 11px; 
+} 
+ 
+.colecao-quatro { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 25px; 
+  max-width: 800px; 
+  margin: 40px auto; 
+} 
+ 
+.colecao-cinco { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 25px; 
+  max-width: 900px; 
+  margin: 40px auto; 
+} 
+ 
+.oculos-sunstyle { 
+  height: 200px; 
+  padding: 15px; 
+  background-color: white; 
+  border-radius: 20px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
+} 
+ 
+.oculos-sunstyle img { 
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: contain; 
+} 
+ 
+.oculos-sunstyle.foto-preenchida { 
+  padding: 0; 
+} 
+ 
+.oculos-sunstyle.foto-preenchida img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+} 
+ 
+.formulario-contato { 
+  max-width: 550px; 
+  margin: 30px auto; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+} 
+ 
+.formulario-contato input, 
+.formulario-contato textarea { 
+  width: 100%; 
+  padding: 12px 20px; 
+  border: 0; 
+  border-radius: 15px; 
+  background-color: #d9d9d9; 
+} 
+ 
+.formulario-contato label { 
+  color: #000; 
+  font-weight: bold; 
+} 
+ 
+.formulario-contato textarea { 
+  height: 120px; 
+  resize: none;
+} 
+ 
+footer, 
+.faixa-final { 
+  background-color: #d9d9d9; 
+  color: #000; 
+} 
+ 
+footer { 
+  padding: 25px 40px; 
+  margin-top: 50px; 
+} 
+ 
+.rodape-sunstyle { 
+  max-width: 1100px; 
+  margin: auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 30px; 
+} 
+ 
+.logo-rodape img { 
+  height: 35px; 
+} 
+ 
+.informacoes-rodape, 
+.redes-rodape { 
+  font-size: 11px; 
+  line-height: 1.8; 
+} 
+ 
+.faixa-final { 
+  text-align: center; 
+  padding: 10px; 
+  font-weight: bold; 
+  font-size: 12px; 
+  margin-top: 40px; 
+}
